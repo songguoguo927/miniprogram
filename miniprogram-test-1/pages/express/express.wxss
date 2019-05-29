@@ -1,0 +1,12 @@
+/* pages/express/express.wxss */
+.input{
+  height: 80rpx;
+  width: 70%;
+  border: 1px solid rgb(0, 195, 255);
+  margin: 5px 0 15px 0;
+
+}
+.expressWhere{
+  /* font-size: 10px; */
+  margin: 5px 0 5px 0;
+}

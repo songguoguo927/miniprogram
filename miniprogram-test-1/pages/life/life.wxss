@@ -1,0 +1,4 @@
+/* pages/life/life.wxss */
+.into-view{
+  height: 200rpx;
+}

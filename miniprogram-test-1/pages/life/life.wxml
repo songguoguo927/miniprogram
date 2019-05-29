@@ -1,0 +1,21 @@
+<view class="container">
+  <view class='into-view' bindtap='v1Click'>
+    page1
+  </view>
+  <view class='into-view' bindtap='v2Click'>
+    page2
+  </view>
+  <view class='into-view' bindtap='v3Click'>
+    page3
+  </view>
+  <view class='into-view' bindtap='v4Click'>
+    page4
+  </view>
+  <!-- 第五种跳转方式，默认情况下为navigatorTo的跳转方式 -->
+  <navigator url='../news/news?id=5&msg=5' open-type='redirect'>
+   <view class='into-view'>
+    page5
+  </view>
+  </navigator>
+
+</view>

@@ -1,0 +1,49 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/express/express",
+    "pages/life/life",
+    "pages/templates/header/header",
+    "pages/templates/footer/footer",   
+    "pages/firstPages/firstPages",
+    "pages/logs/logs",
+    "pages/news/news"
+  ],
+ "window": {
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#adc",
+  "navigationBarTitleText": "wechat",
+  "navigationBarTextStyle": "white"
+},
+  "tabBar": {
+    "color": "purple",
+    "selectedColor": "red",
+    "list": [
+      {
+        "pagePath": "pages/express/express",
+        "text": "快递",
+        "iconPath": "./images/two.png",
+        "selectedIconPath": "./images/two_select.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath":"./images/log.png",
+        "selectedIconPath":"./images/log_select.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/one.png",
+        "selectedIconPath": "./images/one_select.png"
+
+      }
+    ]
+  }
+  ,
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#adc",
+    "navigationBarTitleText": "快递查询",
+    "navigationBarTextStyle": "white"
+  
+}

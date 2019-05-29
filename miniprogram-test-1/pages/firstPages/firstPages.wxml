@@ -1,0 +1,40 @@
+<!-- 引入模板的第一种方式 -->
+<include src="../templates/header/header" />
+
+<view>
+<text>{{ msg }}</text>
+<button 
+  type="default" 
+  size="mini"
+>
+ {{ btn1msg }}
+</button>
+<button 
+  type="primary"
+  bindtap='btn1'
+  size="mini"
+>
+  primary
+</button>
+<button 
+  type="warn"
+  size="mini"
+>
+  warn
+</button>
+<!-- 渲染标签 -->
+<!--1, 条件标签 -->
+</view>
+<view wx:if="{{flag}}">
+这是一条隐晦信息！ 
+</view>
+<view wx:else>
+就是看不见，气死你！ 
+</view>
+<!-- 2，循环标签 -->
+<!-- 可以自行设置原来index/item的名字，如这里nItem -->
+<view wx:for="{{ news }}" wx:for-item="nItem">{{index}}---{{nItem}}</view>
+<!-- 引入模板的第二种方式 可以动态传值-->
+<import src="../templates/footer/footer" />
+
+<template is="footer1" data="{{ num:'1233'}}"/>

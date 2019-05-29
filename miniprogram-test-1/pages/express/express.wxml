@@ -1,0 +1,15 @@
+<view class='container'>
+  <!-- 快递单号输入框 -->
+  <!-- 测试单号780098068058 -->
+  <input placeholder='请输入快递单号' class='input' bindinput='inputClick'></input>
+  <!-- 查询按钮 -->
+  <button type='primary' size='mini' bindtap='btnClick'>查询</button>
+  <!-- 返回信息的展示 -->
+  <scroll-view scroll-y style='height:700rpx'>
+  <view wx:if="{{flag}}">
+    <view wx:for='{{ expressList }}' class='expressWhere'>{{ item.time }}--{{ item.status }} </view>
+    </view>
+    <view wx:else>无查询结果</view>
+  </scroll-view>
+ 
+</view>

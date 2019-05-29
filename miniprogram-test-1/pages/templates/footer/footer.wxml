@@ -1,0 +1,11 @@
+<!--pages/templates/footer/footer.wxml-->
+<template name="footer1">
+  <view>this is about footer1 layout---{{ num }}</view>
+</template>
+<template name="footer2">
+  <view>this is about footer2 layout</view>
+</template>
+<template name="footer3">
+  <view>this is about footer3 layout</view>
+</template>
+

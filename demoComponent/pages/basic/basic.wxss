@@ -1,0 +1,9 @@
+/* pages/basic/basic.wxss */
+.group{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+progress{
+  margin: 10px;
+}

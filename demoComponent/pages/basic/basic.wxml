@@ -1,0 +1,31 @@
+<view class="group">
+  <block wx:for="{{iconSize}}">
+    <icon type="success" size="{{item}}" color='purple'/>
+  </block>
+</view>
+
+<view class="group">
+  <block wx:for="{{iconType}}">
+    <icon type="{{item}}" size="40"/>
+  </block>
+</view>
+
+<view class="group">
+  <block wx:for="{{iconColor}}">
+    <icon type="success" size="40" color="{{item}}"/>
+  </block>
+</view>
+<view style='margin-top:40px'>
+<view>进度条</view>
+<progress 
+  percent="55" 
+  show-info 
+  border-radius='20' 
+  activeColor='purple' 
+  stroke-width='10' 
+  active
+ />
+<progress percent="40" stroke-width="12" border-radius='20' />
+<progress percent="60" color="pink" border-radius='20'/>
+<progress percent="80" active border-radius='20' />
+</view>

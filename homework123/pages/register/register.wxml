@@ -1,0 +1,29 @@
+<view class='registerPage'>
+  <view class='title'>注册页面</view>
+  <form bindsubmit="formSubmit" bindreset="formReset" class='flexContainer'>
+    <input name="username" placeholder='请输入用户名' />
+    <input name="pwd" type="password"  placeholder='请输入密码' />
+    <input name="pwd1" type="password"  placeholder='再次输入密码' />
+
+    <view class="form-item">hobby:
+      <checkbox-group bindchange='ckChange' name='hobby'>
+        <checkbox wx:for='{{hobbies}}' value='{{item}}'>{{item}}</checkbox>
+      </checkbox-group>
+    </view>
+    <view class="form-item">country:
+      <radio-group class="radio-group"  name='country'>
+        <label class="radio" wx:for="{{items}}">
+          <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+    <view class="form-item">introduce yourself
+      <textarea placeholder="form 中的 textarea" name="textarea" />
+    </view>
+    <view class='btnGroup'>
+    <button form-type='submit' size='mini' type='primary'>register</button>
+    <button form-type="reset" size='mini'>Reset</button>
+    </view>
+    
+  </form>
+</view>

@@ -1,0 +1,35 @@
+<view class='container'>
+<view>hobby</view>
+  <checkbox-group bindchange='ckChange'>
+    <checkbox value='sing'>sing</checkbox>
+    <checkbox value='dance'>dance</checkbox>
+    <checkbox value='rap'>rap</checkbox>
+    <checkbox value='Basketball'>playBasketball</checkbox>
+  </checkbox-group>
+  <button size='mini' type='primary'  bindtap='btnClick'>submit</button>
+ 
+</view>
+ <view class="body-view">
+    <switch checked bindchange="switch1Change"/>
+    <switch bindchange="switch2Change"/>
+</view>
+<view class="section section_gap">
+  <text class="section__title">设置step</text>
+  <view class="body-view">
+    <slider bindchange="slider2change" step="5"/>
+  </view>
+</view>
+
+<view class="section section_gap">
+  <text class="section__title">显示当前value</text>
+  <view class="body-view">
+    <slider bindchange="slider3change" show-value/>
+  </view>
+</view>
+
+<view class="section section_gap">
+  <text class="section__title">设置最小/最大值</text>
+  <view class="body-view">
+    <slider bindchange="slider4change" min="50" max="200" show-value/>
+  </view>
+</view>

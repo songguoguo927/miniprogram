@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/forms/forms",
+    "pages/basic/basic",
+    "pages/swiper/swiper",
+    "pages/scroll/scroll",
+    "pages/movable/movable"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

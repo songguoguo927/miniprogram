@@ -1,0 +1,8 @@
+ <view class='title'>登录页面</view>
+  <form bindsubmit="formSubmit">
+    <input name="username" placeholder='请输入用户名' /> 
+    <input name="pwd"  type="password" placeholder='请输入密码'/>
+
+    <button form-type='submit' type='primary' style='width:70%'>login</button>
+    
+  </form>

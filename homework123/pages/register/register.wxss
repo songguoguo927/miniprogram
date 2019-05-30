@@ -1,0 +1,27 @@
+/* pages/register/register.wxss */
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content:center;
+}
+
+
+
+.form-item {
+  width: 70%;
+  margin: 20px auto;
+}
+
+textarea {
+  border: 1px solid blueviolet;
+  width: 100%;
+}
+
+.btnGroup {
+  float: right;
+  width: 61%;
+  margin-top: 20px;
+}
